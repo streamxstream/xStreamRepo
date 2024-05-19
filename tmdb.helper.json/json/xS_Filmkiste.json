@@ -1,7 +1,7 @@
 {
     "name"				: "[COLORpurple]Filmkiste[/COLOR]",
     "plugin"			: "plugin.video.xstream",
-    "priority"			: 190,
+    "priority"			: 34,
 	"language"          : "de",
 	"is_resolvable"     : "true",
     "assert"			:{

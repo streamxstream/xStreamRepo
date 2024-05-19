@@ -1,7 +1,7 @@
 {
     "name"				: "[COLORlime]Einfach[/COLOR]",
     "plugin"			: "plugin.video.xstream",
-    "priority"			: 195,
+    "priority"			: 33,
 	"language"          : "de",
 	"is_resolvable"     : "true",
     "assert"			:{
