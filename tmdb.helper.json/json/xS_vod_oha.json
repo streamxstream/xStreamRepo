@@ -13,8 +13,8 @@
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearchMovies&site=vod_oha",
-							{"keyboard": "{showname}"},
-							{"title": "{showname}"}
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
                         ],						
 	"play_episode"      :[
 							"plugin://plugin.video.xstream/?function=showSearchSeries&site=vod_oha",

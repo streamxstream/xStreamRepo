@@ -14,8 +14,8 @@
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=netzkino",
-							{"keyboard": "{showname}"},
-							{"title": "{showname}"}
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
 						]
 }
 

@@ -16,8 +16,8 @@
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=cinemathek",
-							{"keyboard": "{showname}"},
-							{"title": "{showname}"}
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
 						],						
 	"play_episode"      :[
 							"plugin://plugin.video.xstream/?function=showSearch&site=cinemathek",

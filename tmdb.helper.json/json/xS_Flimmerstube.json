@@ -13,7 +13,7 @@
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=flimmerstube",
-							{"keyboard": "{showname}"},
+							{"keyboard": "{title}"},
 							{"dialog": "True"}
                         ]
 }

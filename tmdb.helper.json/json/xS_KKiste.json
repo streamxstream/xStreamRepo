@@ -15,8 +15,8 @@
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=kkiste",
-							{"keyboard": "{showname}"},
-							{"title": "{showname}"}
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
 						]
 }
 

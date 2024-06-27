@@ -16,13 +16,13 @@
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=filmpalast",
-							{"keyboard": "{showname}"},
-							{"title": "{showname}"}
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
 						],						
 	"play_episode"      :[
 							"plugin://plugin.video.xstream/?function=showSearch&site=filmpalast",
 							{"keyboard": "{showname}"},
-							{"title": "{showname}"},
+							{"title": "(?i).*{showname}.*S.*{season}E.*{episode}"},
 							{"season": "{season}"},
 							{"episode": "{episode}"}
                         ]
