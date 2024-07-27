@@ -8,16 +8,19 @@ Hier findet Ihr alle benötigten Dateien und Links um den ganzen Umfang von xStr
 ***
 
 Wenn Ihr Fehler in der xStream Repository findet könnt Ihr ihn über Pull Request einreichen.
+
 [![Pull Request einreichen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/pullrequest.png)](https://github.com/streamxstream/xStreamRepo/compare)
 
 ***
 
 Habt Ihr Fragen rund um xStream findet Ihr sicher eure Antworten in unserer FAQ.
+
 [![FaQ aufrufen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/faq.png)](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
 
 ***
 
 Für alles weitere findet Ihr auch Informationen auf unserer Webseite die ihr auch als Quelle in Kodi einbinden könnt.
+
 [![Web Portal aufrufen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/web.png)](https://streamxstream.github.io/xStreamRepoWeb/)
 
 ***
