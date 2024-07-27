@@ -1,7 +1,7 @@
 
 ## Willkommen in der xStream Repository für Kodi!
 
-![xStream logo]([https://raw.githubusercontent.com/streamxstream/xStream-FAQ/master/Logo%20FAQ.png])
+![xStream logo](https://raw.githubusercontent.com/streamxstream/xStream-FAQ/master/Logo%20FAQ.png)
 
 Hier findet Ihr alle benötigten Dateien um den ganzen Umfang von xStream via Kodi zu genießen.
 
