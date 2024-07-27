@@ -3,32 +3,31 @@
 
 ![xStream logo](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/icon.png)
 
-Hier findet Ihr alle benötigten Dateien um den ganzen Umfang von xStream via Kodi zu genießen.
+Hier findet Ihr alle benötigten Dateien und Links um den ganzen Umfang von xStream via Kodi zu genießen.
 
 ***
 
-Wenn Ihr Fehler in xStream findet, ein Feature oder Siteplugin einreichen wollt, könnt Ihr dies über Pull Requests einreichen oder den Fehler hier direkt melden.
-### | [Pull Request einreichen](https://github.com/streamxstream/plugin.video.xstream/compare)
-
-[![Pull Request einreichen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/xstreamsettings.png)](https://github.com/streamxstream/xStreamRepo/compare)
-
-### | [Fehler melden](https://github.com/streamxstream/plugin.video.xstream/issues/new?assignees=&labels=Fehlermeldung&projects=&template=fehler-melden.md&title=Fehler+Melden)
+Wenn Ihr Fehler in der xStream Repository findet könnt Ihr ihn über Pull Request einreichen.
+[![Pull Request einreichen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/pullrequest.png)](https://github.com/streamxstream/xStreamRepo/compare)
 
 ***
 
 Habt Ihr Fragen rund um xStream findet Ihr sicher eure Antworten in unserer FAQ.
-### | [FAQ](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
+[![FaQ aufrufen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/faq.png)](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
 
 ***
 
 Für alles weitere findet Ihr auch Informationen auf unserer Webseite die ihr auch als Quelle in Kodi einbinden könnt.
-### | [Web Portal](https://streamxstream.github.io/xStreamRepoWeb/)
+[![Web Portal aufrufen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/web.png)](https://streamxstream.github.io/xStreamRepoWeb/)
 
 ***
 
 Oder nutzt unseren Chat wenn Ihr irgendwelche anderen Fragen um xStream beantwortet haben möchtet.
 
-[![Gitter](https://badges.gitter.im/streamxstream/community.svg)](https://gitter.im/streamxstream/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter Chat](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/gitter.png)](https://gitter.im/streamxstream/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+[![Matrix.to Chat](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/element.png)](https://matrix.to/#/#streamxstream_community:gitter.im)
+
 
 
 
