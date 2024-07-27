@@ -7,7 +7,7 @@ Hier findet Ihr alle benötigten TMDb-Helper Dateien um xStream mit dem TheMovie
 
 ***
 
-Wenn Ihr Fehler in der xStream Repository findet könnt Ihr ihn über Pull Request einreichen. Achtet bitte darauf den richtigen Zweig (Branch) zu nutzen.
+Wenn Ihr Fehler in einem TMDb Player findet oder ein neuen Player einreichen wollt, könnt Ihr ihn über Pull Requests einreichen. Achtet bitte darauf den richtigen Zweig (Branch) zu nutzen.
 
 [![Pull Request einreichen](https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/config/pullrequest.png)](https://github.com/streamxstream/xStreamRepo/compare)
 
