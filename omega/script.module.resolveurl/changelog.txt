@@ -1,0 +1,17 @@
+Version 5.1.143 (July 21, 2024)
+- Code Base Changes:
+    - None
+
+- Resolvers Added:
+    - wecima
+
+- Resolvers Fixed/Updated:
+    - amdahost
+    - upstream
+    - voesx
+
+- Resolvers Removed
+    - None
+
+- Languages Added/Updated
+    - None
