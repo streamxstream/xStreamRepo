@@ -17,6 +17,12 @@
 							"plugin://plugin.video.xstream/?function=showSearch&site=kkiste",
 							{"keyboard": "{title}"},
 							{"title": "{title}"}
-						]
+						],						
+	"play_episode"      :[
+							"plugin://plugin.video.xstream/?function=showSearch&site=kkiste",
+							{"keyboard": "{showname}"},
+							{"title": "(?i).*{showname}.*Staffel.*?{season}"},
+							{"title": "(?i).*Episode.*{episode}"}
+                        ]
 }
 

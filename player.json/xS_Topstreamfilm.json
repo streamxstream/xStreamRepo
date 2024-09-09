@@ -1,7 +1,7 @@
 {
-    "name"              : "[COLORpink]Cinemathek[/COLOR]",
+    "name"              : "[COLORpink]Topstreamfilm[/COLOR]",
 	"plugin" 			: "plugin.video.xstream",
-	"priority"          : 30,
+	"priority"          : 175,
 	"language"          : "de",
 	"is_resolvable"     : "true",
 	"assert"            :{
@@ -15,16 +15,16 @@
 							"play_episode": "xS_GlobalSearch.json search_episode"
 						},
     "play_movie" 		:[
-							"plugin://plugin.video.xstream/?function=showSearch&site=cinemathek",
+							"plugin://plugin.video.xstream/?function=showSearch&site=topstreamfilm",
 							{"keyboard": "{title}"},
 							{"title": "{title}"}
 						],						
 	"play_episode"      :[
-							"plugin://plugin.video.xstream/?function=showSearch&site=cinemathek",
+							"plugin://plugin.video.xstream/?function=showSearch&site=topstreamfilm",
 							{"keyboard": "{showname}"},
-							{"title": "{showname}"},
-							{"season": "{season}"},
-							{"episode": "{episode}"}
+							{"title": "(?i).*{showname}"},
+							{"title": "(?i).*Staffel.*{season}"},
+							{"title": "(?i).*Episode.*{episode}"}
                         ]
 }
 
