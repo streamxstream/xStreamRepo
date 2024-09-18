@@ -1,15 +1,25 @@
-Version 5.1.147 (September 5, 2024)
+Version 5.1.144 (August 04, 2024)
 - Code Base Changes:
-    - Fix captcha window property missing
+    - None
 
 - Resolvers Added:
-    - udrop
+    - None
 
 - Resolvers Fixed/Updated:
-    - voe
+    - filemoon
+    - lulustream
+    - streamcommunity
+    - streamwish
+    - vidguard
+    - vidspeed
+    - vk
+    - voesx
+    - waaw
+    - zstreamhub
 
 - Resolvers Removed
-    - None
+    - mycloud
+    - streamrapid
 
 - Languages Added/Updated
     - None
