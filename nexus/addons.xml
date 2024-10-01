@@ -133,7 +133,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.xstream.trailer" name="xStream Trailer" version="1.0.0" provider-name="mr-evil1">
+<addon id="script.module.xstream.trailer" name="xStream Trailer" version="1.0.1" provider-name="mr-evil1">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="plugin.video.youtube"/>
