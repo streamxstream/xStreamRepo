@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.xstream" name="xStream" version="4.1.1" provider-name="xStream-Team">
+<addon id="plugin.video.xstream" name="xStream" version="4.1.2" provider-name="xStream-Team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -104,7 +104,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.149" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.147" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
