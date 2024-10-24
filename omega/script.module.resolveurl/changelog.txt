@@ -1,12 +1,15 @@
-Version 5.1.147 (September 5, 2024)
+Version 5.1.149 (October 16, 2024)
 - Code Base Changes:
-    - Fix captcha window property missing
+    - None
 
 - Resolvers Added:
-    - udrop
+    - None
 
 - Resolvers Fixed/Updated:
-    - voe
+    - cloudfile
+    - filemoon
+    - streamwish
+    - vixstream
 
 - Resolvers Removed
     - None
