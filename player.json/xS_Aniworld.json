@@ -1,0 +1,23 @@
+{
+	"name" 				: "[COLORdeepskyblue]Aniworld[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 10,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_episode":     ["originaltitle", "season", "episode"],
+							"search_episode":   ["originaltitle"]  
+						},
+	"fallback"			:{
+							"play_episode": "xS_GlobalSearch.json search_episode"
+						},
+	"play_episode" 		:[
+							"plugin://plugin.video.xstream/?function=showSearch&site=aniworld",
+							{"keyboard": "{showname}"},
+							{"title": "(?i)^(\\[.*\\])?{showname}(\\[.*\\])?$"},
+							{"return": "true", "season": "{season}", "episode": "{episode}"},
+							{"season": "{season}"},
+							{"season": "{season}", "episode": "{episode}"}
+						]
+}
+

@@ -1,0 +1,20 @@
+{
+    "name"              : "[COLORpurple]Einschalten[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 30,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"search_movie":     ["title"] 
+						},
+	"fallback"			:{
+							"play_movie": "xS_GlobalSearch.json search_movie"
+						},
+    "play_movie" 		:[
+							"plugin://plugin.video.xstream/?function=showSearch&site=einschalten",
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
+                        ]
+}
+

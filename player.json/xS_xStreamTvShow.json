@@ -1,0 +1,16 @@
+{
+    "name" 				: "xStream Serien Suche (Alle Seiten)",
+    "plugin" 			: "plugin.video.xstream",
+    "priority"          : 6,
+	"language"          : "de",
+    "is_resolvable"     : "true",
+	"assert"            :{
+							"play_episode":     ["showname", "season", "episode"],
+							"search_episode":   ["showname"]  
+						},    
+	"play_episode" 		:[
+							"plugin://plugin.video.xstream/?function=globalSearch&params=0&site=globalSearch",
+							{"keyboard": "{showname}"},
+							{"dialog": "True"}
+						]
+}

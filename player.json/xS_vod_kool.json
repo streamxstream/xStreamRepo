@@ -1,0 +1,27 @@
+{
+    "name"              : "[COLORcyan]VoD Kool[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 251,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"search_movie":     ["title"] 
+						},
+	"fallback"			:{
+							"play_episode": "xS_GlobalSearch.json search_episode"
+						},
+    "play_movie" 		:[
+							"plugin://plugin.video.xstream/?function=showSearchMovies&site=vod_kool",
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
+                        ],						
+	"play_episode"      :[
+							"plugin://plugin.video.xstream/?function=showSearchSeries&site=vod_kool",
+							{"keyboard": "{showname}"},
+							{"title": "{showname}"},
+							{"season": "{season}"},
+							{"episode": "{episode}"}
+                        ]
+}
+

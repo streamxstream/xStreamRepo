@@ -1,0 +1,21 @@
+{
+    "name"              : "[COLORred]Netzino[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 160,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"search_movie":     ["title"]
+  
+						},
+	"fallback"			:{
+							"play_movie": "xS_GlobalSearch.json search_movie"
+						},
+    "play_movie" 		:[
+							"plugin://plugin.video.xstream/?function=showSearch&site=netzkino",
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
+						]
+}
+

@@ -1,0 +1,27 @@
+{
+    "name"              : "[COLORcyan]VoD Vavoo[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 253,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"search_movie":     ["title"] 
+						},
+	"fallback"			:{
+							"play_episode": "xS_GlobalSearch.json search_episode"
+						},
+    "play_movie" 		:[
+							"plugin://plugin.video.xstream/?function=showSearchMovies&site=vod_vavoo",
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
+                        ],						
+	"play_episode"      :[
+							"plugin://plugin.video.xstream/?function=showSearchSeries&site=vod_vavoo",
+							{"keyboard": "{showname}"},
+							{"title": "{showname}"},
+							{"season": "{season}"},
+							{"episode": "{episode}"}
+                        ]
+}
+

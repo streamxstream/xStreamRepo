@@ -1,0 +1,28 @@
+{
+    "name"              : "[COLORpink]Megakino[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 120,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"play_episode":     ["showname", "season", "episode"],
+							"search_movie":     ["title"],
+							"search_episode":   ["showname"] 
+						},
+	"fallback"			:{
+							"play_movie": "xS_GlobalSearch.json search_movie"
+						},
+    "play_movie" 		:[
+							"plugin://plugin.video.xstream/?function=showSearch&site=megakino",
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
+						],						
+	"play_episode"      :[
+							"plugin://plugin.video.xstream/?function=showSearch&site=megakino",
+							{"keyboard": "{showname}"},			
+							{"title": "(?i).*{showname}.*Staffel.*{season}"},
+							{"episode": "{episode}"}
+                        ]
+}
+

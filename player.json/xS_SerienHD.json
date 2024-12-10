@@ -1,0 +1,24 @@
+{
+    "name"              : "[COLORyellow]SerienHD[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 165,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"play_episode": 	["showname", "season", "episode"],
+							"search_movie": 	["title"],
+							"search_episode": 	["showname"]  
+						},
+	"fallback"			:{
+							"play_episode": "xS_GlobalSearch.json search_episode"
+						},	
+	"play_episode"      :[
+							"plugin://plugin.video.xstream/?function=showSearch&site=serien-stream",
+							{"keyboard": "{showname}"},
+							{"title": "(?i).*{showname}"},
+							{"title": "(?i).*Staffel.*{season}"},
+							{"title": "(?i).*Episode.*{episode}"}
+                        ]
+}
+

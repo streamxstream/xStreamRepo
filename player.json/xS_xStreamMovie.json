@@ -1,0 +1,15 @@
+{
+    "name" 				: "xStream Film Suche (Alle Seiten)",
+    "plugin" 			: "plugin.video.xstream",
+    "priority"          : 5,
+	"language"          : "de",
+    "is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"play_episode":     ["showname", "season", "episode"] 
+						},    
+    "play_movie" 		:[
+							"plugin://plugin.video.xstream/?function=globalSearch&params=0&site=globalSearch&title=Global%20Suche&searchterm={title}",
+							{"dialog": "True"}
+						]
+}

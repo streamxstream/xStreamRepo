@@ -1,0 +1,28 @@
+{
+    "name"              : "[COLORdarkred]HD Filme[/COLOR]",
+	"plugin" 			: "plugin.video.xstream",
+	"priority"          : 60,
+	"language"          : "de",
+	"is_resolvable"     : "true",
+	"assert"            :{
+							"play_movie":       ["title", "year"],
+							"play_episode": 	["showname", "season", "episode"],
+							"search_movie": 	["title"],
+							"search_episode": 	["showname"]  
+						},
+	"fallback"			:{
+							"play_movie": "xS_GlobalSearch.json search_movie"
+						},
+    "play_movie" 		:[
+							"plugin://plugin.video.xstream/?function=showSearch&site=hdfilme",
+							{"keyboard": "{title}"},
+							{"title": "{title}"}
+						],						
+	"play_episode"      :[
+							"plugin://plugin.video.xstream/?function=showSearch&site=hdfilme",
+							{"keyboard": "{showname}"},
+							{"title": "(?i).*{showname}.*Staffel.*?{season}"},
+							{"title": "(?i).*Episode.*{episode}"}
+                        ]
+}
+
