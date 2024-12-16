@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.xstream.trailer" name="xStream Trailer" version="1.0.1" provider-name="mr-evil1">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="plugin.video.youtube"/>
+		<import addon="plugin.video.xstream"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.pydevd" optional="true" />
+	</requires>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.python.pluginsource" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">xStream: Trailer</summary>
+		<summary lang="en_GB">xStream: Trailer</summary>
+		<description lang="de">Mit diesem Addon kannst du in xStream, Trailer ausgewählter Streams ansehen.</description>
+		<description lang="en_GB">With this addon you can watch trailers of selected streams in xStream.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons, weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<disclaimer lang="en_GB">The content presented by this add-on is neither hosted nor distributed by the creators of the add-on, nor do the creators have any relationship with the content providers.</disclaimer>
+		<language>de en</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<website>https://streamxstream.github.io/xStreamRepoWeb/</website>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+

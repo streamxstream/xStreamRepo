@@ -1,0 +1,8 @@
+[B]Version: 4.1.7[/B]
+
+16.12.2024
+
+- [Domain Updates] Diverser Addons
+- [Allgemein] Code Optimierungen
+
+[I]*Editierhinweis: Text nicht länger als die Linie. Keine Tabulatoren verwenden![/I]

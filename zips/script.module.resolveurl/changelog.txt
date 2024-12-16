@@ -1,0 +1,23 @@
+Version 5.1.155 (December 08, 2024)
+- Code Base Changes:
+    - None
+
+- Resolvers Added:
+    - None
+
+- Resolvers Fixed/Updated:
+    - alldebrid
+    - debridlink
+    - realdebrid
+    - freedl
+    - gofile
+    - kinoger
+    - streamtape
+    - streamwish
+    - voe
+
+- Resolvers Removed
+    - None
+
+- Languages Added/Updated
+    - None

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xstream" name="xStream Repository" version="1.2.4" provider-name="xStream-Team">
+	<extension point="xbmc.addon.repository" name="xStream Repository">
+		<dir minversion="18.9.701" maxversion="21.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/zips/addons.xml</info>
+			<checksum verify="sha256">https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/zips/addons.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/repo/zips/</datadir>
+        </dir>
+	</extension>	
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">xStream Repository</summary>
+		<summary lang="en_GB">xStream Repository</summary>
+		<description lang="de_DE">Dies ist das offizielle xStream Repository.[CR]Bei der Bereitstellung einer neuen xStream Version, wird diese vor der Veröffentlichung auf Funktionalität geprüft. Sollten dennoch Probleme auftreten benachrichtige bitte das offizielle xStream-Team via Github oder Chat.</description>
+		<description lang="de_GB">This is the official xStream repository.[CR]When a new xStream version is released, it is tested for functionality before being released. If you still encounter problems, please notify the official xStream team via Github or chat.</description>
+		<disclaimer lang="de_DE">Sie können dieses Video Addon gerne verwenden. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xStream oder den Entwicklern! Weitere Informationen finden Sie in unserer Wiki und FaQ.</disclaimer>
+		<disclaimer lang="en_GB">You are welcome to use this video addon. The content provided on the websites has no connection to xStream or the developers! For more information, see our Wiki and FaQ.</disclaimer>
+		<language>de en</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<website>https://streamxstream.github.io/xStreamRepoWeb/</website>
+		<source>https://github.com/streamxstream</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.png</banner>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
